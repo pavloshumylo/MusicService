@@ -6,8 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.time.Instant;
-import java.util.Date;
+import java.util.List;
 
 @Service
 @Transactional
@@ -21,12 +20,32 @@ public class BandServiceImpl implements BandService {
     }
 
     @Override
-    public void test() {
-        Band band = new Band();
-        Date date = Date.from(Instant.now());
-        band.setDateOfCreate(date);
-        band.setDescription("Description");
-        band.setMembers("Members");
+    public void createBand(Band band) {
         bandDAO.create(band);
+    }
+
+    @Override
+    public void updateBand(Band band) {
+        bandDAO.update(band);
+    }
+
+    @Override
+    public void deleteBand(Band band) {
+        bandDAO.delete(band);
+    }
+
+    @Override
+    public Band findBandById(int id) {
+        return bandDAO.findById(id);
+    }
+
+    @Override
+    public List<Band> findAll() {
+        return bandDAO.findAll();
+    }
+
+    @Override
+    public void deleteAll(List<Band> bands) {
+        bandDAO.deleteAll(bands);
     }
 }
