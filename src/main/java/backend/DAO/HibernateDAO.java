@@ -10,7 +10,6 @@ import java.io.Serializable;
 import java.lang.reflect.ParameterizedType;
 import java.util.List;
 
-@Transactional(propagation = Propagation.REQUIRED)
 public class HibernateDAO<Item, Id extends Serializable> implements GenericDAO<Item, Id> {
 
     @Autowired
