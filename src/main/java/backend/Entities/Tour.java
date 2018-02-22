@@ -65,7 +65,6 @@ public class Tour {
     public void setBand(Band band) {
         this.band = band;
     }
-
     public List<MessageAboutTour> getMessagesAboutTour() {
         return messagesAboutTour;
     }

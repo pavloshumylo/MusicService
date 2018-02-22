@@ -3,6 +3,7 @@ package backend.Entities;
 import javax.persistence.*;
 import java.util.Date;
 import java.util.List;
+import java.util.Set;
 
 @Entity
 public class Band {
@@ -19,16 +20,16 @@ public class Band {
     @Column
     private String description;
 
-    @OneToMany(mappedBy = "band")
-    private List<Tour> bandTours;
+    @OneToMany(fetch = FetchType.EAGER, mappedBy = "band") //@LazyCollection(LazyCollectionOption.FALSE) with List
+    private Set<Tour> bandTours;
 
-    @OneToMany(mappedBy = "band")
-    private List<Performance> bandPerformances;
+    @OneToMany(fetch = FetchType.EAGER, mappedBy = "band")
+    private Set<Performance> bandPerformances;
 
-    @OneToMany(mappedBy = "band")
-    private List<BandPhoto> bandPhotos;
+    @OneToMany(fetch = FetchType.EAGER, mappedBy = "band")
+    private Set<BandPhoto> bandPhotos;
 
-    @ManyToMany
+    @ManyToMany(fetch = FetchType.EAGER)
     @JoinTable(
             name = "band_subscribed_users",
             joinColumns = @JoinColumn(name = "band_id") ,
@@ -67,27 +68,27 @@ public class Band {
         this.description = description;
     }
 
-    public List<Tour> getBandTours() {
+    public Set<Tour> getBandTours() {
         return bandTours;
     }
 
-    public void setBandTours(List<Tour> bandTours) {
+    public void setBandTours(Set<Tour> bandTours) {
         this.bandTours = bandTours;
     }
 
-    public List<Performance> getBandPerformances() {
+    public Set<Performance> getBandPerformances() {
         return bandPerformances;
     }
 
-    public void setBandPerformances(List<Performance> bandPerformances) {
+    public void setBandPerformances(Set<Performance> bandPerformances) {
         this.bandPerformances = bandPerformances;
     }
 
-    public List<BandPhoto> getBandPhotos() {
+    public Set<BandPhoto> getBandPhotos() {
         return bandPhotos;
     }
 
-    public void setBandPhotos(List<BandPhoto> bandPhotos) {
+    public void setBandPhotos(Set<BandPhoto> bandPhotos) {
         this.bandPhotos = bandPhotos;
     }
 
