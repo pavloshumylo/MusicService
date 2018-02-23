@@ -36,12 +36,12 @@ public class BandServiceImpl implements BandService {
 
     @Override
     public Band findBandById(int id) {
-        return bandDAO.findBy(id);
+        return bandDAO.findById(id);
     }
 
     @Override
     public List<Band> findAll() {
-        return bandDAO.find();
+        return bandDAO.findAll();
     }
 
     @Override

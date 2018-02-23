@@ -11,9 +11,9 @@ public interface GenericDAO<Item, Id extends Serializable>  {
 
     void delete(Item entity);
 
-    Item findById(Id id);
+/* Item findById(Id id);
 
-    List<Item> findAll();
+    List<Item> findAll();  */
 
     void deleteAll(List<Item> entities);
 

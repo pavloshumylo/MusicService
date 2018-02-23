@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface BandDAO extends GenericDAO<Band, Integer> {
 
-    Band findBy(int id);
+    Band findById(int id);
 
-    List<Band> find();
+    List<Band> findAll();
 }

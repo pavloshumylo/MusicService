@@ -12,7 +12,7 @@ import java.util.List;
 public class BandDAOImpl extends HibernateDAO<Band, Integer> implements BandDAO {
 
     @Override
-    public Band findBy(int id) {
+    public Band findById(int id) {
         Band band = (Band)currentSession().get(daoType, id);
         Hibernate.initialize(band.getBandTours());
         Hibernate.initialize(band.getBandPerformances());
@@ -22,7 +22,7 @@ public class BandDAOImpl extends HibernateDAO<Band, Integer> implements BandDAO 
     }
 
     @Override
-    public List<Band> find() {
+    public List<Band> findAll() {
         List<Band> bands = currentSession().createQuery("from " + daoType.getName()).getResultList();
         for(Band band : bands)
         {

@@ -15,11 +15,11 @@ public class MessageAboutTour {
     @Column(name = "is_tour_or_place_tour")
     private boolean isTourOrPlaceTour;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id")
     private User user;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "tour_id")
     private Tour tour;
 

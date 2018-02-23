@@ -11,11 +11,11 @@ public class Performance {
     @Column(name = "url_to_youtube")
     private String urlToYoutube;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "band_id")
     private Band band;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "tour_detail_place_id")
     private TourDetailPlace tourDetailPlace;
 
