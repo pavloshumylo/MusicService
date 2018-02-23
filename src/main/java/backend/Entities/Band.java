@@ -20,21 +20,21 @@ public class Band {
     @Column
     private String description;
 
-    @OneToMany(fetch = FetchType.EAGER, mappedBy = "band") //@LazyCollection(LazyCollectionOption.FALSE) with List
+    @OneToMany(mappedBy = "band")
     private Set<Tour> bandTours;
 
-    @OneToMany(fetch = FetchType.EAGER, mappedBy = "band")
+    @OneToMany(mappedBy = "band")
     private Set<Performance> bandPerformances;
 
-    @OneToMany(fetch = FetchType.EAGER, mappedBy = "band")
+    @OneToMany(mappedBy = "band")
     private Set<BandPhoto> bandPhotos;
 
-    @ManyToMany(fetch = FetchType.EAGER)
+    @ManyToMany
     @JoinTable(
             name = "band_subscribed_users",
             joinColumns = @JoinColumn(name = "band_id") ,
             inverseJoinColumns =  @JoinColumn(name = "subscribed_user_id"))
-    private List<User> subscribedUsers;
+    private Set<User> subscribedUsers;
 
     public int getId() {
         return id;
@@ -92,11 +92,11 @@ public class Band {
         this.bandPhotos = bandPhotos;
     }
 
-    public List<User> getSubscribedUsers() {
+    public Set<User> getSubscribedUsers() {
         return subscribedUsers;
     }
 
-    public void setSubscribedUsers(List<User> subscribedUsers) {
+    public void setSubscribedUsers(Set<User> subscribedUsers) {
         this.subscribedUsers = subscribedUsers;
     }
 }
