@@ -14,7 +14,7 @@ public class UserPhoto {
     @Column(name = "is_main_photo")
     private boolean isMainPhoto;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id")
     private User user;
 

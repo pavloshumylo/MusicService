@@ -22,7 +22,7 @@ public class TourDetailPlace {
     @OneToMany(mappedBy = "tourDetailPlace")
     private List<Performance> performances;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "tour_id")
     private Tour tour;
 

@@ -38,16 +38,6 @@ public class HibernateDAO<Item, Id extends Serializable> implements GenericDAO<I
         currentSession().delete(entity);
     }
 
-  /*  @Override
-    public Item findById(Id id) {
-        return (Item) currentSession().get(daoType, id);
-    }
-
-    @Override
-    public List<Item> findAll() {
-        return currentSession().createQuery("from " + daoType.getName()).getResultList();
-    }
-*/
     @Override
     public void deleteAll(List<Item> entities) {
         Session session = currentSession();
