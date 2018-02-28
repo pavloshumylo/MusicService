@@ -14,7 +14,7 @@ public class BandPhoto {
     @Column(name = "is_main_photo")
     private boolean isMainPhoto;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "band_id")
     private Band band;
 

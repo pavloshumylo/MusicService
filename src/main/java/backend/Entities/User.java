@@ -25,7 +25,7 @@ public class User {
     @Column(name = "date_of_birth")
     private Date dateOfBirth;
 
-    @ManyToMany(mappedBy = "subscribedUsers")
+    @ManyToMany(mappedBy = "subscribedUsers", fetch = FetchType.LAZY)
     private List<Band> bandsSubscriptions;
 
     @OneToMany(mappedBy = "user")

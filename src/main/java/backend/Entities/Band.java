@@ -29,7 +29,7 @@ public class Band {
     @OneToMany(mappedBy = "band")
     private Set<BandPhoto> bandPhotos;
 
-    @ManyToMany
+    @ManyToMany(fetch = FetchType.LAZY)
     @JoinTable(
             name = "band_subscribed_users",
             joinColumns = @JoinColumn(name = "band_id") ,
