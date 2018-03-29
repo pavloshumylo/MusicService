@@ -19,19 +19,19 @@ public class UserPhotoController {
     @PostMapping(value = "/create")
     public ResponseEntity<Void> create(@RequestBody UserPhoto userPhoto){
         userPhotoService.createUserPhoto(userPhoto);
-        return new ResponseEntity<Void>(HttpStatus.OK);
+        return new ResponseEntity<>(HttpStatus.CREATED);
     }
 
     @PutMapping(value = "/update")
     public ResponseEntity<Void> update(@RequestBody UserPhoto userPhoto) {
         userPhotoService.updateUserPhoto(userPhoto);
-        return new ResponseEntity<Void>(HttpStatus.OK);
+        return new ResponseEntity<>(HttpStatus.OK);
     }
 
     @DeleteMapping(value = "/delete")
     public ResponseEntity<Void> delete(@RequestBody UserPhoto userPhoto) {
         userPhotoService.deleteUserPhoto(userPhoto);
-        return new ResponseEntity<Void>(HttpStatus.OK);
+        return new ResponseEntity<>(HttpStatus.OK);
     }
 
     @GetMapping(value = "/find/{id}")
@@ -48,6 +48,6 @@ public class UserPhotoController {
     public ResponseEntity<Void> deleteAll(@RequestBody List<UserPhoto> userPhotos)
     {
         userPhotoService.deleteAll(userPhotos);
-        return new ResponseEntity<Void>(HttpStatus.OK);
+        return new ResponseEntity<>(HttpStatus.OK);
     }
 }

@@ -19,19 +19,19 @@ public class TourController {
     @PostMapping(value = "/create")
     public ResponseEntity<Void> create(@RequestBody Tour tour){
         tourService.createTour(tour);
-        return new ResponseEntity<Void>(HttpStatus.OK);
+        return new ResponseEntity<>(HttpStatus.CREATED);
     }
 
     @PutMapping(value = "/update")
     public ResponseEntity<Void> update(@RequestBody Tour tour) {
         tourService.updateTour(tour);
-        return new ResponseEntity<Void>(HttpStatus.OK);
+        return new ResponseEntity<>(HttpStatus.OK);
     }
 
     @DeleteMapping(value = "/delete")
     public ResponseEntity<Void> delete(@RequestBody Tour tour) {
         tourService.deleteTour(tour);
-        return new ResponseEntity<Void>(HttpStatus.OK);
+        return new ResponseEntity<>(HttpStatus.OK);
     }
 
     @GetMapping(value = "/find/{id}")
@@ -48,6 +48,6 @@ public class TourController {
     public ResponseEntity<Void> deleteAll(@RequestBody List<Tour> tours)
     {
         tourService.deleteAll(tours);
-        return new ResponseEntity<Void>(HttpStatus.OK);
+        return new ResponseEntity<>(HttpStatus.OK);
     }
 }

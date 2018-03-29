@@ -19,19 +19,19 @@ public class UserController {
     @PostMapping(value = "/create")
     public ResponseEntity<Void> create(@RequestBody User user){
         userService.createUser(user);
-        return new ResponseEntity<Void>(HttpStatus.OK);
+        return new ResponseEntity<>(HttpStatus.CREATED);
     }
 
     @PutMapping(value = "/update")
     public ResponseEntity<Void> update(@RequestBody User user) {
         userService.updateUser(user);
-        return new ResponseEntity<Void>(HttpStatus.OK);
+        return new ResponseEntity<>(HttpStatus.OK);
     }
 
     @DeleteMapping(value = "/delete")
     public ResponseEntity<Void> delete(@RequestBody User user) {
         userService.deleteUser(user);
-        return new ResponseEntity<Void>(HttpStatus.OK);
+        return new ResponseEntity<>(HttpStatus.OK);
     }
 
     @GetMapping(value = "/find/{id}")
@@ -48,6 +48,6 @@ public class UserController {
     public ResponseEntity<Void> deleteAll(@RequestBody List<User> bands)
     {
         userService.deleteAll(bands);
-        return new ResponseEntity<Void>(HttpStatus.OK);
+        return new ResponseEntity<>(HttpStatus.OK);
     }
 }

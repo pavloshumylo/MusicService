@@ -19,19 +19,19 @@ public class BandPhotoController {
     @PostMapping(value = "/create")
     public ResponseEntity<Void> create(@RequestBody BandPhoto bandPhoto){
         bandPhotoService.createBandPhoto(bandPhoto);
-        return new ResponseEntity<Void>(HttpStatus.OK);
+        return new ResponseEntity<>(HttpStatus.CREATED);
     }
 
     @PutMapping(value = "/update")
     public ResponseEntity<Void> update(@RequestBody BandPhoto bandPhoto) {
         bandPhotoService.updateBandPhoto(bandPhoto);
-        return new ResponseEntity<Void>(HttpStatus.OK);
+        return new ResponseEntity<>(HttpStatus.OK);
     }
 
     @DeleteMapping(value = "/delete")
     public ResponseEntity<Void> delete(@RequestBody BandPhoto bandPhoto) {
         bandPhotoService.deleteBandPhoto(bandPhoto);
-        return new ResponseEntity<Void>(HttpStatus.OK);
+        return new ResponseEntity<>(HttpStatus.OK);
     }
 
     @GetMapping(value = "/find/{id}")
@@ -48,6 +48,6 @@ public class BandPhotoController {
     public ResponseEntity<Void> deleteAll(@RequestBody List<BandPhoto> bandPhotos)
     {
         bandPhotoService.deleteAll(bandPhotos);
-        return new ResponseEntity<Void>(HttpStatus.OK);
+        return new ResponseEntity<>(HttpStatus.OK);
     }
 }

@@ -6,11 +6,18 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32542280-ac8b-423d-899d-3d84f6fd1e1b" name="Default" comment="Add lazy init">
+    <list default="true" id="32542280-ac8b-423d-899d-3d84f6fd1e1b" name="Default" comment="Add minor changes (band, bandPhoto, User)">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MusicService/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../MusicService/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MusicService/src/main/java/backend/Entities/Band.java" afterPath="$PROJECT_DIR$/../MusicService/src/main/java/backend/Entities/Band.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MusicService/src/main/java/backend/Entities/BandPhoto.java" afterPath="$PROJECT_DIR$/../MusicService/src/main/java/backend/Entities/BandPhoto.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MusicService/src/main/java/backend/Entities/User.java" afterPath="$PROJECT_DIR$/../MusicService/src/main/java/backend/Entities/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MusicService/MusicService.iml" afterPath="$PROJECT_DIR$/../MusicService/MusicService.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/BandController.java" afterPath="$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/BandController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/BandPhotoController.java" afterPath="$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/BandPhotoController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/MessageAboutTourController.java" afterPath="$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/MessageAboutTourController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/PerformanceController.java" afterPath="$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/PerformanceController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/TourController.java" afterPath="$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/TourController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/TourDetailPlaceController.java" afterPath="$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/TourDetailPlaceController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/UserController.java" afterPath="$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/UserPhotoController.java" afterPath="$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/UserPhotoController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MusicService/src/main/resources/spring/root-context.xml" afterPath="$PROJECT_DIR$/../MusicService/src/main/resources/spring/root-context.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../MusicService/out/" />
     <ignored path="$PROJECT_DIR$/../MusicService/target/" />
@@ -21,24 +28,128 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="root-context.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../MusicService/src/main/resources/spring/root-context.xml">
+      <file leaf-file-name="BandController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/BandController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="33" column="15" lean-forward="false" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
-              <folding />
+            <state relative-caret-position="177">
+              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1257#1258#0" expanded="true" />
+                <element signature="e#1301#1302#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Band.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Entities/Band.java">
+      <file leaf-file-name="BandPhotoController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/BandPhotoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1022">
-              <caret line="100" column="5" lean-forward="true" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="242">
+              <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageAboutTourController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/MessageAboutTourController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="50" column="34" lean-forward="false" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserPhotoController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/UserPhotoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="397">
+              <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResponseEntity.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE.jar!/org/springframework/http/ResponseEntity.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+              <folding>
+                <element signature="e#490#491#0" expanded="true" />
+                <element signature="e#565#566#0" expanded="true" />
+                <element signature="e#621#622#0" expanded="true" />
+                <element signature="e#688#689#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PerformanceController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/PerformanceController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="50" column="34" lean-forward="false" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TourController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/TourController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TourDetailPlaceController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/TourDetailPlaceController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="50" column="34" lean-forward="false" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,82 +157,9 @@
       <file leaf-file-name="BandPhoto.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Entities/BandPhoto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageAboutTour.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Entities/MessageAboutTour.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Performance.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Entities/Performance.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-88">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tour.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Entities/Tour.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-66">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TourDetailPlace.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Entities/TourDetailPlace.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Entities/User.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="110">
-              <caret line="27" column="68" lean-forward="false" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserPhoto.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Entities/UserPhoto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-260">
               <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../MusicService/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="22">
-                <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -131,8 +169,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
         <option value="Interface" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -147,15 +185,21 @@
       <find>iterator</find>
       <find>sort</find>
       <find>entit</find>
+      <find>mysq</find>
+      <find>synchronizedlist</find>
+      <find>class synchronizedlis</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../MusicService" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/../MusicService" value="master" />
+        <entry key="$PROJECT_DIR$/../MusicService" value="branch" />
       </map>
     </option>
+    <push-targets>
+      <push-target-info target-remote="origin" target-branch="master" repo="$PROJECT_DIR$/../MusicService" source="branch" />
+    </push-targets>
     <favorite-branches>
       <branch-storage>
         <map>
@@ -178,34 +222,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Service/BandPhotoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/BandPhotoController.java" />
-        <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Service/messageAboutTourServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Service/MessageAboutTourService.java" />
-        <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Service/MessageAboutTourServiceImpl.java" />
         <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Service/PerformaceServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/MessageAboutTourController.java" />
-        <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/PerformanceController.java" />
         <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Service/PerformanceService.java" />
         <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Service/TourService.java" />
         <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Service/TourServiceImpl.java" />
         <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Service/TourDetailPlaceService.java" />
         <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Service/TourDetailPlaceServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/TourDetailPlaceController.java" />
-        <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/TourController.java" />
         <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Service/UserService.java" />
         <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Service/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/UserController.java" />
         <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Service/UserPhotoService.java" />
         <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Service/UserPhotoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/UserPhotoController.java" />
-        <option value="$PROJECT_DIR$/../MusicService/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/DAO/GenericDAO.java" />
-        <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/DAOImpl/BandDAOImpl.java" />
         <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Service/BandServiceImpl.java" />
         <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/DAO/BandPhotoDAO.java" />
         <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/DAOImpl/BandPhotoDAOImpl.java" />
-        <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Entities/MessageAboutTour.java" />
         <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/DAO/MessageAboutTourDAO.java" />
         <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Entities/Performance.java" />
         <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/DAO/PerformanceDAO.java" />
@@ -219,16 +248,31 @@
         <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/DAOImpl/TourDetailPlaceDAOImpl.java" />
         <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/DAO/UserDAO.java" />
         <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/DAOImpl/UserDAOImpl.java" />
-        <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Entities/UserPhoto.java" />
         <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/DAO/UserPhotoDAO.java" />
         <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/DAOImpl/UserPhotoDAOImpl.java" />
-        <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/DAO/HibernateDAO.java" />
-        <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/BandController.java" />
         <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/DAO/BandDAO.java" />
-        <option value="$PROJECT_DIR$/../MusicService/src/main/resources/spring/root-context.xml" />
-        <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Entities/BandPhoto.java" />
         <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Entities/User.java" />
+        <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Entities/MessageAboutTour.java" />
+        <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Entities/BandPhoto.java" />
+        <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Entities/UserPhoto.java" />
+        <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/TestHibernate.java" />
+        <option value="$PROJECT_DIR$/../MusicService/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Service/BandPhotoService.java" />
         <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Entities/Band.java" />
+        <option value="$PROJECT_DIR$/../MusicService/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Service/BandPhotoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/DAO/GenericDAO.java" />
+        <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/DAO/HibernateDAO.java" />
+        <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/DAOImpl/BandDAOImpl.java" />
+        <option value="$PROJECT_DIR$/../MusicService/src/main/resources/spring/root-context.xml" />
+        <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/BandController.java" />
+        <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/BandPhotoController.java" />
+        <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/MessageAboutTourController.java" />
+        <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/PerformanceController.java" />
+        <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/TourController.java" />
+        <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/TourDetailPlaceController.java" />
+        <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/UserController.java" />
+        <option value="$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/UserPhotoController.java" />
       </list>
     </option>
   </component>
@@ -252,8 +296,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="6" />
-    <option name="y" value="220" />
+    <option name="x" value="137" />
+    <option name="y" value="58" />
     <option name="width" value="1938" />
     <option name="height" value="1102" />
   </component>
@@ -273,7 +317,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -312,51 +355,6 @@
               <item name="MusicService" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MusicService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MusicService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="DAO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MusicService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MusicService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="DAOImpl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MusicService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MusicService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="Entities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MusicService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MusicService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="Service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MusicService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MusicService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -366,6 +364,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MusicService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MusicService" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MusicService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MusicService" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MusicService" type="b2602c69:ProjectViewProjectNode" />
@@ -431,17 +440,18 @@
       <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="D:/Laba/OurProject" />
-    <property name="settings.editor.selected.configurable" value="spring" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Program Files/Git777/bin/git.exe" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.40441176" />
-    <property name="SearchEverywhereHistoryKey" value="session&#9;FILE&#9;jar://C:/Users/Pavlo/.m2/repository/org/hibernate/hibernate-core/5.2.12.Final/hibernate-core-5.2.12.Final-sources.jar!/org/hibernate/Session.java&#10;begintransa&#9;PSI&#9;JAVA://org.hibernate.SharedSessionContract#beginTransaction&#10;applicationcon&#9;PSI&#9;JAVA://org.springframework.context.ApplicationContext&#10;JPA&#9;FILE&#9;jar://C:/Users/Pavlo/.m2/repository/org/springframework/spring-orm/5.0.2.RELEASE/spring-orm-5.0.2.RELEASE.jar!/org/springframework/orm/jpa/JpaDialect.class&#10;arraylist&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/ArrayList.java&#10;runna&#9;PSI&#9;JAVA://java.lang.Runnable&#10;collection&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/Collection.java&#10;stream&#9;PSI&#9;JAVA://java.util.stream.Stream&#10;parallelstr&#9;PSI&#9;JAVA://java.util.Collection#parallelStream&#10;executors&#9;PSI&#9;JAVA://java.util.concurrent.Executors&#10;executor&#9;PSI&#9;JAVA://java.util.concurrent.Executor&#10;hashmap&#9;PSI&#9;JAVA://java.util.HashMap&#10;arrays&#9;PSI&#9;JAVA://java.util.Arrays&#10;collections&#9;PSI&#9;JAVA://java.util.Collections&#10;arrayli&#9;PSI&#9;JAVA://java.util.ArrayList&#10;linkedli&#9;PSI&#9;JAVA://java.util.LinkedList&#10;map&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/TreeMap.java&#10;inetad&#9;PSI&#9;JAVA://java.net.InetAddress&#10;socket&#9;PSI&#9;JAVA://java.net.Socket&#10;begintra&#9;PSI&#9;JAVA://org.springframework.jca.endpoint.AbstractMessageEndpointFactory.TransactionDelegate#beginTransaction&#10;begintrans&#9;PSI&#9;JAVA://org.hibernate.SharedSessionContract#beginTransaction&#10;begintran&#9;PSI&#9;JAVA://org.springframework.orm.jpa.JpaDialect#beginTransaction&#10;gettransact&#9;PSI&#9;JAVA://org.hibernate.SharedSessionContract#getTransaction&#10;transac&#9;PSI&#9;JAVA://org.hibernate.Transaction&#10;sessionfa&#9;FILE&#9;jar://C:/Users/Pavlo/.m2/repository/org/hibernate/hibernate-core/5.2.12.Final/hibernate-core-5.2.12.Final-sources.jar!/org/hibernate/SessionFactory.java&#10;sess&#9;FILE&#9;jar://C:/Users/Pavlo/.m2/repository/org/hibernate/hibernate-core/5.2.12.Final/hibernate-core-5.2.12.Final-sources.jar!/org/hibernate/Session.java&#10;queue&#9;PSI&#9;JAVA://java.util.Queue&#10;itera&#9;PSI&#9;JAVA://java.lang.Iterable&#10;inputst&#9;PSI&#9;JAVA://java.io.InputStream&#10;reader&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/io/Reader.java&#10;bufferedre&#9;PSI&#9;JAVA://java.io.BufferedReader&#10;clos&#9;PSI&#9;JAVA://java.io.Closeable&#10;auto&#9;PSI&#9;JAVA://java.lang.AutoCloseable&#10;treemap&#9;PSI&#9;JAVA://java.util.TreeMap&#10;arraydequ&#9;PSI&#9;JAVA://java.util.ArrayDeque&#10;list&#9;PSI&#9;JAVA://java.awt.List&#10;colle&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/Collection.java&#10;comparator&#9;PSI&#9;JAVA://java.util.Comparator&#10;compara&#9;PSI&#9;JAVA://java.lang.Comparable&#10;annotationconfigapplicationcon&#9;PSI&#9;JAVA://org.springframework.context.annotation.AnnotationConfigApplicationContext&#10;annotationcone&#9;PSI&#9;JAVA://org.springframework.core.annotation.AnnotationConfigurationException&#10;object&#9;PSI&#9;JAVA://java.lang.Object&#10;serializ&#9;PSI&#9;JAVA://java.io.Serializable&#10;clone&#9;PSI&#9;JAVA://java.lang.Cloneable&#10;Date&#9;PSI&#9;JAVA://java.util.Date" />
+    <property name="SearchEverywhereHistoryKey" value="classpathx&#9;PSI&#9;JAVA://org.springframework.context.support.ClassPathXmlApplicationContext&#10;beanfactory&#9;FILE&#9;jar://C:/Users/Pavlo/.m2/repository/org/springframework/spring-beans/4.3.10.RELEASE/spring-beans-4.3.10.RELEASE.jar!/org/springframework/beans/factory/BeanFactory.class&#10;beanfa&#9;FILE&#9;jar://C:/Users/Pavlo/.m2/repository/org/springframework/spring-beans/4.3.10.RELEASE/spring-beans-4.3.10.RELEASE.jar!/org/springframework/beans/factory/BeanFactory.class&#10;iterable&#9;PSI&#9;JAVA://java.lang.Iterable&#10;ITERATOR&#9;PSI&#9;JAVA://java.util.Iterator&#10;system&#9;PSI&#9;JAVA://java.lang.System&#10;collections&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/Collections.java&#10;applicationcon&#9;PSI&#9;JAVA://org.springframework.context.ApplicationContext&#10;sess&#9;FILE&#9;jar://C:/Users/Pavlo/.m2/repository/org/hibernate/hibernate-core/5.2.12.Final/hibernate-core-5.2.12.Final-sources.jar!/org/hibernate/Session.java&#10;tran&#9;FILE&#9;jar://C:/Users/Pavlo/.m2/repository/org/hibernate/hibernate-core/5.2.12.Final/hibernate-core-5.2.12.Final-sources.jar!/org/hibernate/Transaction.java&#10;sessio&#9;FILE&#9;jar://C:/Users/Pavlo/.m2/repository/org/hibernate/hibernate-core/5.2.12.Final/hibernate-core-5.2.12.Final-sources.jar!/org/hibernate/Session.java&#10;trans&#9;PSI&#9;JAVA://org.hibernate.Transaction&#10;session&#9;FILE&#9;jar://C:/Users/Pavlo/.m2/repository/org/hibernate/hibernate-core/5.2.12.Final/hibernate-core-5.2.12.Final-sources.jar!/org/hibernate/Session.java&#10;externali&#9;PSI&#9;JAVA://java.io.Externalizable&#10;execut&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/ExecutorService.java&#10;serversocke&#9;PSI&#9;JAVA://java.net.ServerSocket&#10;synchronizedL&#9;PSI&#9;JAVA://java.util.Collections.SynchronizedList&#10;lock&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/jre/lib/rt.jar!/java/util/concurrent/locks/Lock.class&#10;execu&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/ExecutorService.java&#10;scheduledexecutorser&#9;PSI&#9;JAVA://java.util.concurrent.ScheduledExecutorService&#10;colle&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/Collection.java&#10;executorser&#9;PSI&#9;JAVA://java.util.concurrent.ExecutorService&#10;localdateti&#9;PSI&#9;JAVA://java.time.LocalDateTime&#10;localtime&#9;PSI&#9;JAVA://java.time.LocalTime&#10;clock&#9;PSI&#9;JAVA://java.time.Clock&#10;arraylist&#9;PSI&#9;JAVA://java.util.ArrayList&#10;arra&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/ArrayList.java&#10;linkedli&#9;PSI&#9;JAVA://java.util.LinkedList&#10;COLLE&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/Collection.java&#10;compara&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Comparable.java&#10;predica&#9;PSI&#9;JAVA://java.util.function.Predicate&#10;clon&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Cloneable.java&#10;seriali&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/io/Serializable.java&#10;clonea&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Cloneable.java&#10;converter&#9;PSI&#9;JAVA://org.hibernate.engine.config.spi.ConfigurationService.Converter&#10;compa&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Comparable.java&#10;socket&#9;PSI&#9;JAVA://java.net.Socket&#10;collec&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/Collection.java&#10;closeable&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/io/Closeable.java&#10;closea&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/io/Closeable.java&#10;patter&#9;PSI&#9;JAVA://java.util.regex.Pattern&#10;matcher&#9;PSI&#9;JAVA://java.util.regex.Matcher&#10;inputst&#9;PSI&#9;JAVA://java.io.InputStream&#10;close&#9;PSI&#9;JAVA://java.io.Closeable&#10;clo&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Cloneable.java&#10;autocl&#9;PSI&#9;JAVA://java.lang.AutoCloseable&#10;clone&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Cloneable.java&#10;collectio&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/Collection.java&#10;object&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Object.java&#10;thread&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Thread.java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -468,6 +478,44 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat">
+    <configuration name="Band" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="backend.Entities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="backend.Entities.Band" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../MusicService" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="MusicService" />
+      <envs />
+    </configuration>
+    <configuration name="BandController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="backend.Controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="backend.Controllers.BandController" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../MusicService" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="MusicService" />
+      <envs />
+    </configuration>
     <configuration name="HibernateDAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -476,6 +524,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="backend.DAO.HibernateDAO" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../MusicService" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="MusicService" />
+      <envs />
+    </configuration>
+    <configuration name="PerformanceController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="backend.Controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="backend.Controllers.PerformanceController" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../MusicService" />
@@ -659,15 +726,21 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="3">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat" />
       <item index="1" class="java.lang.String" itemvalue="Application.TestHibernate" />
       <item index="2" class="java.lang.String" itemvalue="Application.HibernateDAO" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Band" />
+      <item index="4" class="java.lang.String" itemvalue="Application.BandController" />
+      <item index="5" class="java.lang.String" itemvalue="Application.PerformanceController" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.HibernateDAO" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestHibernate" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.PerformanceController" />
+        <item index="1" class="java.lang.String" itemvalue="Application.BandController" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Band" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TestHibernate" />
+        <item index="4" class="java.lang.String" itemvalue="Application.HibernateDAO" />
       </list>
     </recent_temporary>
   </component>
@@ -702,7 +775,36 @@
       <workItem from="1519557289356" duration="9741000" />
       <workItem from="1519660227555" duration="7724000" />
       <workItem from="1519689322771" duration="656000" />
-      <workItem from="1519731074424" duration="16449000" />
+      <workItem from="1519731074424" duration="16896000" />
+      <workItem from="1519843088476" duration="1663000" />
+      <workItem from="1519858517132" duration="649000" />
+      <workItem from="1519898491504" duration="259000" />
+      <workItem from="1519997360862" duration="1111000" />
+      <workItem from="1520075011781" duration="4483000" />
+      <workItem from="1520096934681" duration="12731000" />
+      <workItem from="1520165836833" duration="1445000" />
+      <workItem from="1520174711596" duration="1261000" />
+      <workItem from="1520192067267" duration="4588000" />
+      <workItem from="1520275930080" duration="2651000" />
+      <workItem from="1520373794829" duration="149000" />
+      <workItem from="1520794770388" duration="317000" />
+      <workItem from="1520797931523" duration="464000" />
+      <workItem from="1520981383954" duration="1773000" />
+      <workItem from="1521051617019" duration="19109000" />
+      <workItem from="1521142127718" duration="32000" />
+      <workItem from="1521142698287" duration="96000" />
+      <workItem from="1521146460682" duration="174000" />
+      <workItem from="1521151390357" duration="539000" />
+      <workItem from="1521193642658" duration="4585000" />
+      <workItem from="1521239838956" duration="1017000" />
+      <workItem from="1521568709533" duration="278000" />
+      <workItem from="1521700903111" duration="225000" />
+      <workItem from="1521708405378" duration="48000" />
+      <workItem from="1521850647768" duration="89000" />
+      <workItem from="1521922911794" duration="1064000" />
+      <workItem from="1522225607222" duration="605000" />
+      <workItem from="1522268278224" duration="954000" />
+      <workItem from="1522311028203" duration="5355000" />
     </task>
     <task id="LOCAL-00001" summary="Add hibernate.cfg.xml (TestHibernate)">
       <created>1518882683452</created>
@@ -774,11 +876,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519486779780</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add minor changes (band, bandPhoto, User)">
+      <created>1519822464795</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1519822464795</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114338000" />
+    <option name="totallyTimeSpent" value="182499000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -793,39 +902,75 @@
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32918552" sideWeight="0.5021482" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5042965" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29269603" sideWeight="0.7771493" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39932126" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.49570355" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.49785176" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3319012" sideWeight="0.29185522" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3727175" sideWeight="0.7081448" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31578946" sideWeight="0.22102009" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5042965" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2567132" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2744361" sideWeight="0.7771493" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39932126" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32918552" sideWeight="0.49785176" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.49785176" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.49570355" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30612245" sideWeight="0.8381113" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30612245" sideWeight="0.1618887" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3319012" sideWeight="0.29185522" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3319012" sideWeight="0.7081448" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31578946" sideWeight="0.22102009" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -867,38 +1012,34 @@
     <MESSAGE value="Add dao, service, controller layers (user, userPhoto)" />
     <MESSAGE value="Fix lazy init" />
     <MESSAGE value="Add lazy init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add lazy init" />
+    <MESSAGE value="Add minor changes (band, bandPhoto, User)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add minor changes (band, bandPhoto, User)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/BandController.java</url>
-          <line>52</line>
-          <properties class="backend.Controllers.BandController" method="deleteAll">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_151/src.zip!/java/util/Queue.java">
+    <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Service/TourDetailPlaceServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2420">
-          <caret line="143" column="20" lean-forward="false" selection-start-line="143" selection-start-column="20" selection-end-line="143" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="132">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.2.12.Final/hibernate-core-5.2.12.Final-sources.jar!/org/hibernate/SessionFactory.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.2.12.Final/hibernate-core-5.2.12.Final-sources.jar!/org/hibernate/Hibernate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1364">
-          <caret line="79" column="5" lean-forward="false" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="283">
+          <caret line="54" column="23" lean-forward="false" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.2.12.Final/hibernate-core-5.2.12.Final-sources.jar!/org/hibernate/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="29" column="50" lean-forward="true" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -906,245 +1047,85 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.2.12.Final/hibernate-core-5.2.12.Final-sources.jar!/org/hibernate/Transaction.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.2.12.Final/hibernate-core-5.2.12.Final-sources.jar!/org/hibernate/SharedSessionContract.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="29" column="42" lean-forward="false" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.0.2.RELEASE/spring-tx-5.0.2.RELEASE.jar!/org/springframework/jca/endpoint/AbstractMessageEndpointFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1782">
-          <caret line="109" column="20" lean-forward="false" selection-start-line="109" selection-start-column="20" selection-end-line="109" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/5.0.2.RELEASE/spring-orm-5.0.2.RELEASE.jar!/org/springframework/orm/hibernate5/LocalSessionFactoryBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1276">
-          <caret line="87" column="16" lean-forward="false" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Service/BandServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_151/src.zip!/java/net/InetAddress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="188" column="6" lean-forward="false" selection-start-line="188" selection-start-column="6" selection-end-line="188" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_151/src.zip!/java/net/Socket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="922">
-          <caret line="283" column="11" lean-forward="false" selection-start-line="283" selection-start-column="11" selection-end-line="283" selection-end-column="11" />
-          <folding>
-            <element signature="e#1829#1830#0" expanded="false" />
-            <element signature="e#1854#1855#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_151/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="128" column="17" lean-forward="false" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_151/src.zip!/java/util/TreeMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#108850#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_151/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="110" column="38" lean-forward="true" selection-start-line="110" selection-start-column="38" selection-end-line="110" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.2.12.Final/hibernate-core-5.2.12.Final-sources.jar!/org/hibernate/mapping/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="319" column="22" lean-forward="false" selection-start-line="319" selection-start-column="14" selection-end-line="319" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_151/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="825" column="28" lean-forward="false" selection-start-line="825" selection-start-column="28" selection-end-line="825" selection-end-column="28" />
-          <folding>
-            <element signature="e#24161#24162#0" expanded="false" />
-            <element signature="e#24193#24194#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="186">
+          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_151/src.zip!/java/util/Collections.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="139" column="57" lean-forward="false" selection-start-line="139" selection-start-column="57" selection-end-line="139" selection-end-column="57" />
-          <folding>
-            <element signature="e#5644#5645#0" expanded="false" />
-            <element signature="e#5675#5676#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="66880">
+          <caret line="3325" column="38" lean-forward="false" selection-start-line="3325" selection-start-column="38" selection-end-line="3325" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_151/src.zip!/java/util/Arrays.java">
+    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="142" column="23" lean-forward="false" selection-start-line="142" selection-start-column="23" selection-end-line="142" selection-end-column="23" />
-          <folding>
-            <element signature="e#5027#5028#0" expanded="false" />
-            <element signature="e#5098#5099#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="20130">
+          <caret line="959" column="24" lean-forward="false" selection-start-line="959" selection-start-column="24" selection-end-line="959" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_151/src.zip!/java/util/HashMap.java">
+    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_151/src.zip!/java/util/Iterator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="495" column="9" lean-forward="false" selection-start-line="495" selection-start-column="8" selection-end-line="495" selection-end-column="9" />
-          <folding>
-            <element signature="e#19103#19104#0" expanded="false" />
-            <element signature="e#19161#19162#0" expanded="false" />
-            <element signature="e#19327#19328#0" expanded="false" />
-            <element signature="e#19410#19411#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="1210">
+          <caret line="78" column="6" lean-forward="false" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/AbstractExecutorService.java">
+    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Iterable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="70" column="22" lean-forward="false" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/Executor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="127" column="21" lean-forward="false" selection-start-line="127" selection-start-column="21" selection-end-line="127" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.10.RELEASE/spring-context-4.3.10.RELEASE.jar!/org/springframework/scheduling/concurrent/ConcurrentTaskScheduler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="1230" column="11" lean-forward="false" selection-start-line="1230" selection-start-column="11" selection-end-line="1230" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="87" column="34" lean-forward="false" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_151/src.zip!/java/util/stream/Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="153" column="17" lean-forward="false" selection-start-line="153" selection-start-column="17" selection-end-line="153" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_151/src.zip!/java/util/Spliterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="295" column="17" lean-forward="false" selection-start-line="295" selection-start-column="17" selection-end-line="295" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_151/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="560" column="27" lean-forward="false" selection-start-line="560" selection-start-column="27" selection-end-line="560" selection-end-column="27" />
-          <folding>
-            <element signature="e#26270#26271#0" expanded="false" />
-            <element signature="e#26326#26327#0" expanded="false" />
-            <element signature="e#26957#26958#0" expanded="false" />
-            <element signature="e#27022#27023#0" expanded="false" />
-            <element signature="e#27751#27752#0" expanded="false" />
-            <element signature="e#27815#27816#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="1606">
+          <caret line="100" column="21" lean-forward="false" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_151/src.zip!/java/util/Spliterators.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="417" column="26" lean-forward="false" selection-start-line="417" selection-start-column="26" selection-end-line="417" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="44" column="34" lean-forward="false" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="10054">
+          <caret line="491" column="46" lean-forward="false" selection-start-line="491" selection-start-column="46" selection-end-line="491" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk1.8.0_151/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="1274" column="13" lean-forward="false" selection-start-line="1274" selection-start-column="13" selection-end-line="1274" selection-end-column="13" />
-          <folding>
-            <element signature="e#31011#31012#0" expanded="false" />
-            <element signature="e#31043#31044#0" expanded="false" />
-            <element signature="e#46717#46718#0" expanded="false" />
-            <element signature="e#46782#46783#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="9284">
+          <caret line="460" column="19" lean-forward="false" selection-start-line="460" selection-start-column="19" selection-end-line="460" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/5.0.2.RELEASE/spring-orm-5.0.2.RELEASE.jar!/org/springframework/orm/jpa/JpaDialect.class">
+    <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/DAOImpl/BandPhotoDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.10.RELEASE/spring-beans-4.3.10.RELEASE.jar!/org/springframework/beans/factory/xml/XmlBeanFactory.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <caret line="14" column="57" lean-forward="false" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.10.RELEASE/spring-beans-4.3.10.RELEASE.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="71" column="13" lean-forward="false" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.10.RELEASE/spring-beans-4.3.10.RELEASE.jar!/org/springframework/beans/factory/ListableBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1152,119 +1133,169 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.10.RELEASE/spring-context-4.3.10.RELEASE.jar!/org/springframework/context/ApplicationContext.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/MessageAboutTourController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.10.RELEASE/spring-beans-4.3.10.RELEASE.jar!/org/springframework/beans/factory/BeanFactory.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="88">
+          <caret line="8" column="47" lean-forward="false" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.2.12.Final/hibernate-core-5.2.12.Final-sources.jar!/org/hibernate/SharedSessionContract.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.10.RELEASE/spring-context-4.3.10.RELEASE.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="418">
+          <caret line="28" column="56" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar!/javax/persistence/EntityManager.class">
+    <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/DAO/GenericDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="264">
+          <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/DAO/MessageAboutTourDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/DAO/BandPhotoDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/DAOImpl/TourDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.2.12.Final/hibernate-core-5.2.12.Final-sources.jar!/org/hibernate/SessionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="79" column="9" lean-forward="false" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.2.12.Final/hibernate-core-5.2.12.Final-sources.jar!/org/hibernate/Session.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="82" column="76" lean-forward="false" selection-start-line="82" selection-start-column="76" selection-end-line="82" selection-end-column="76" />
+        <state relative-caret-position="283">
+          <caret line="82" column="17" lean-forward="false" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Service/BandPhotoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/DAO/HibernateDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        <state relative-caret-position="330">
+          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.2.12.Final/hibernate-core-5.2.12.Final-sources.jar!/org/hibernate/jpa/HibernateEntityManager.java">
+    <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Service/BandPhotoServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="28" column="12" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        <state relative-caret-position="286">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../MusicService/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/TestHibernate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        <state relative-caret-position="418">
+          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MusicService/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Service/BandService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Service/BandServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/DAO/BandDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/DAOImpl/BandDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/BandPhotoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="-150">
+          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../MusicService/src/main/resources/spring/servlet-context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-520">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="206">
+          <caret line="33" column="19" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../MusicService/src/main/resources/spring/root-context.xml">
+    <entry file="file://$PROJECT_DIR$/../MusicService/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="33" column="15" lean-forward="false" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+        <state relative-caret-position="252">
+          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/BandController.java">
+    <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Entities/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="730">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Entities/Band.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1022">
-          <caret line="100" column="5" lean-forward="true" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Entities/BandPhoto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        <state relative-caret-position="-220">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1279,52 +1310,136 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Entities/Performance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-88">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="572">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Entities/Tour.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="330">
+          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Entities/User.java">
+    <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Entities/Band.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MusicService/src/main/resources/spring/root-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Entities/BandPhoto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
-          <caret line="27" column="68" lean-forward="false" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Entities/UserPhoto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-260">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../MusicService/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="22">
-            <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE.jar!/org/springframework/http/ResponseEntity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+          <folding>
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Entities/TourDetailPlace.java">
+    <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/MessageAboutTourController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="50" column="34" lean-forward="false" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/PerformanceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="50" column="34" lean-forward="false" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/TourDetailPlaceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="50" column="34" lean-forward="false" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/BandPhotoController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-          <folding />
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/BandController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1257#1258#0" expanded="true" />
+            <element signature="e#1301#1302#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/TourController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MusicService/src/main/java/backend/Controllers/UserPhotoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1351,7 +1466,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.40441176" />
               </list>
             </option>
           </splitter-proportions>
@@ -1362,7 +1477,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.40441176" />
               </list>
             </option>
           </splitter-proportions>
@@ -1374,7 +1489,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.40441176" />
               </list>
             </option>
           </splitter-proportions>
@@ -1410,7 +1525,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.40441176" />
               </list>
             </option>
           </splitter-proportions>
